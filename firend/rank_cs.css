@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	height:100%;
+}
+
+body{
+	background:#E9E9E9;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+
+#classify{
+	float:left;
+	height:100%;
+	width:100px;
+}
+
+#main{
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	text-align:center;
+}
+
+#show{
+	background:#FFF;
+	border:2px solid #CCC;
+	border-radius: 4px;
+	overflow:hidden;
+}
+
+#belike{
+	position:absolute;
+	right:10px;
+	top:1px;
+}
+
+#introduce{
+	width:600px;
+	margin-left:50px;
+	word-wrap:break-word;
+	word-break:break-all;
+	overflow:hidden;
+}
+
+#bywho{
+	width:740px;
+	text-align:right;
+	margin-bottom:10px;
+}
+
+#once{
+	border-bottom:2px solid #CCC;
+	overflow:hidden;
+}
+
+#about{
+	float:left; 
+	position:relative; 
+	width:750px; 
+	text-align:left; 
+	margin-left:15px; 
+	margin-top:20px;
+}
+
+.meiye_change{
+	position:fixed;
+	height:20%;
+	top:0px;
+	left:0px;
+	background:#FF991E;
+	border:none;
+}
+
+.meiye_normal{
+	position:fixed;
+	height:20%;
+	top:0px;
+	left:0px;
+	background:#d6d6d6;
+	border:none;
+}
+
+.jianye_change{
+	position:fixed;
+	height:20%;
+	top:20%;
+	background:#FF991E;
+	border:none;
+}
+
+.jianye_normal{
+	position:fixed;
+	height:20%;
+	top:20%;
+	background:#d6d6d6;
+	border:none;
+}
+
+.gongshe_change{
+	position:fixed;
+	height:20%;
+	top:40%;
+	background:#FF991E;
+	border:none;
+}
+
+.gongshe_normal{
+	position:fixed;
+	height:20%;
+	top:40%;
+	background:#d6d6d6;
+	border:none;
+}
+
+.chuangyi_change{
+	position:fixed;
+	height:20%;
+	top:60%;
+	background:#FF991E;
+	border:none;
+}
+
+.chuangyi_normal{
+	position:fixed;
+	height:20%;
+	top:60%;
+	background:#d6d6d6;
+	border:none;
+}
+
+.all_change{
+	position:fixed;
+	height:20%;
+	top:80%;
+	background:#FF991E;
+	border:none;
+}
+
+.all_normal{
+	position:fixed;
+	height:20%;
+	top:80%;
+	background:#d6d6d6;
+	border:none;
+}
+
+.quarter{
+	margin-left:0px;
+}
+
+.year{
+	margin-right:0px;
+}

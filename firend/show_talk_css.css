@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+#alltalk{
+	clear:both;
+}
+#talkonce{
+	padding-top:10px;
+	padding-left:20px;
+	background:#FFF;
+	border-radius: 4px;
+	border:2px solid #CCC;
+	width:1195px;
+	overflow:hidden;
+}
+#talkmessage{
+	width:900px;
+	overflow:hidden;
+	margin-left:30px;
+	margin-top:10px;
+	margin-bottom:30px;
+	word-wrap:break-word;
+	word-break:break-all;
+}
+
+#talkinput{
+	width:1000px;
+	height:150px;
+	resize:none;
+	margin-top:20px;
+}
+
+#callback{
+	clear:both;
+}
+
+#talkperson{
+	overflow:hidden;
+	width:15%;
+	float:left;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+<link href="show_before_css.css" rel="stylesheet" type="text/css" />
+<script src="jquery-2.1.4.js"></script>
+<script src="show_before_js.js"></script>
+<title>展示界面</title>
+</head>
+
+<body onload="Init()">
+<div id="allpage">
+	<div id="left">
+		<div id="person">
+        	<div id="personhead">
+            	<div style="display:table-cell;vertical-align:middle;">
+    				<img src="pic/照片.png" onload="if(this.width>=this.height){this.width=65;}else{this.height=65;}" />
+                </div>
+            </div>
+            <div id="personmesage">
+        		<font size="4">name</font>
+                <div style="height:8px;"></div>
+                <font size="3">个人简介</font>
+            </div>
+    	</div>
+        <div id="aboutshow">
+        	<div id="showhead">
+        		<font size="5" style="font-weight:bold;">head</font>
+            </div>
+        	<textarea id="showmessage" disabled="disabled" >作品介绍
+        	</textarea>
+        </div>
+    </div>
+    <div id="center">
+    	<div style="float:left; width:700px; overflow:hidden; padding-left:50px;">
+    	<div id="centerpic" style="display:table;text-align:center;width:610px; height:610px;">
+    		<div style="display:table-cell;vertical-align:middle;">
+				<img id="showpic" src="pic/点赞后.png" onload="if(this.width>=this.height){this.width=600;}else{this.height=600;}"/>
+        	</div>
+        </div>
+        </div>
+        <div id="choosepic">
+        	<div id="picbechoose">
+            	<div style="display:table-cell; vertical-align:middle;">
+        			<img onclick="Changepic(this)" src="pic/点赞前.png" onload="if(this.width>=this.height){this.height=this.height/this.width*140; this.width=140;}else{this.width=this.width/this.height*140; this.height=140;}"/>
+                </div>
+            </div>
+            <div id="picbechoose">
+            	<div style="display:table-cell; vertical-align:middle;">
+        			<img onclick="Changepic(this)" src="pic/点赞前.png" onload="if(this.width>=this.height){this.height=this.height/this.width*140; this.width=140;}else{this.width=this.width/this.height*140; this.height=140;}"/>
+                </div>
+            </div>
+            <div id="picbechoose">
+            	<div style="display:table-cell; vertical-align:middle;">
+        			<img onclick="Changepic(this)" src="pic/点赞前.png" onload="if(this.width>=this.height){this.height=this.height/this.width*140; this.width=140;}else{this.width=this.width/this.height*140; this.height=140;}"/>
+                </div>
+            </div>
+            <div id="picbechoose">
+            	<div style="display:table-cell; vertical-align:middle;">
+        			<img onclick="Changepic(this)" src="pic/点赞前.png" onload="if(this.width>=this.height){this.height=this.height/this.width*140; this.width=140;}else{this.width=this.width/this.height*140; this.height=140;}"/>
+                </div>
+            </div>
+            <div id="picbechoose">
+            	<div style="display:table-cell; vertical-align:middle;">
+        			<img onclick="Changepic(this)" src="pic/点赞前.png" onload="if(this.width>=this.height){this.height=this.height/this.width*140; this.width=140;}else{this.width=this.width/this.height*140; this.height=140;}"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="right">
+    	<a href="show_talk.html"><img src="pic/no.png"  style=" width:100%;"/></a><br />
+    	<a href="show_talk.html"><img src="pic/yes.png" style=" width:100%;"/></a>
+    </div>
+</div>
+</body>
+</html>

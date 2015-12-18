@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#D1D1D1;
+}
+
+#talkform{
+	position:relative;
+	margin:auto;
+	margin-top:50px;
+	width:700px;
+	height:662px;
+	border:2px solid #adabac;
+	border-radius: 4px;
+}
+
+#talkhead{
+	width:100%;
+	height:40px;
+	background:#FFF;
+	text-align:center;
+}
+
+#talkshow{
+	width:100%;
+	height:500px;
+	background:#E3E3E3;
+	border:2px solid #CCC;
+	overflow:auto;
+}
+
+#talkinput{
+	widows:700px;
+	height:117px;
+	background:#FFF;
+}
+
+#inputmessage{
+	width:560px;
+	height:30px;
+	margin-left:60px;
+	margin-top:20px;
+	border:2px solid #CCC;
+	font-size:100%;
+}
+
+#talkfile{
+	margin-left:50px;
+}
+
+#talkban{
+	position:absolute;
+	right:10px;
+	top:5px;
+}
+
+#talkmessage{
+	margin-top:20px;
+	margin-bottom:20px;
+	width:auto;
+	background:#FFF;
+	border-radius: 4px;
+	word-wrap:break-word;
+	word-break:break-all;
+	max-width:400px;
+	padding:10px;
+}
+
+#talkpic{
+	margin:20px;
+	text-align:center; 
+	display:table;
+	width:40px;
+	height:40px;
+}
+#leftmessage{
+	clear:both;
+	width:100%;
+	overflow:hidden;
+}
+#rightmessage{
+	clear:both;
+	width:100%;
+	overflow:hidden;
+}
+.toleft{
+	float:left;
+}
+.toright{
+	float:right;
+}

@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+#left{
+	float:left;
+	width:230px;
+	margin-top:10px;
+	margin-left:0px;
+}
+
+#center{
+	float:left;
+	margin-left:12px;
+	margin-top:10px;
+	background:#FFF;
+	overflow:hidden;
+	border-radius: 4px;
+	border:2px solid #CCC;
+	width:972px;
+}
+
+#choosepic{
+	width:220px;
+	height:599px;
+	border-left:2px solid #CCC;
+	overflow:auto;
+	float:left;
+	padding-top:0px;
+	padding-bottom:10px;
+}
+
+#right{
+	margin-top:10px;
+	width:59px;
+	float:left;
+}
+
+#picbechoose{
+	width:140px; 
+	height:140px; 
+	text-align:center; 
+	display:table; 
+	margin-top:10px;
+	margin-left:34px; 
+}
+
+#personhead{
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+	width:65px;
+	height:65px;
+	display:table;
+	text-align:center;
+}
+
+#personmesage{
+	width:120px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:4px;
+	margin-right:10px;
+	padding-top:8px;
+	float:left;
+	text-align:left;
+	word-wrap:break-word;
+	word-break:break-all;
+}
+
+#person{
+	background:#FFF;
+	width:230px;;
+	overflow:hidden;
+	border-radius: 4px;
+	border:2px solid #CCC;
+}
+
+#aboutshow{
+	background:#FFF;
+	overflow:hidden;
+	border-radius: 4px;
+	border:2px solid #CCC;
+	text-align:left;
+	width:230px;
+}
+
+#showhead{
+	border-bottom:2px solid #CCC;
+	padding-left:8px;
+}
+
+#showmessage{
+	width:200px;
+	resize:none;
+	margin-bottom:10px;
+	background:#FFF;
+	height:477px;
+	border:none;
+	margin-left:16px;
+}
+
+body {TEXT-ALIGN: center;
+background:#D2D2D2;
+}
+#allpage { 
+MARGIN-RIGHT: auto; 
+MARGIN-LEFT: auto;
+width:1300px;
+overflow:hidden;
+margin-bottom:20px;
+}

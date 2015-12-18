@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#D3D3D3;
+}
+
+#message{
+	background:#FFF;
+	width:90%;
+	MARGIN-RIGHT: auto; 
+	MARGIN-LEFT: auto;
+	overflow:hidden;
+}
+
+#head{
+	width:150px;
+	margin-left:5%;
+	margin-right:5%;
+	float:left;
+}
+
+#left{
+	margin-top:50px;
+	margin-bottom:20px;
+	width:35%;
+	float:left;
+}
+
+#right{
+	margin-top:20px;
+	margin-bottom:20px;
+	width:25%;
+	float:left;
+}
+
+#edit{
+	margin-top:20px;
+	margin-bottom:20px;
+	float:left;
+}
+#save{
+	margin-top:20px;
+	margin-bottom:20px;
+	float:left;
+}
+
+#haveonload{
+	width:80%;
+	margin:auto;
+	margin-top:50px;
+	overflow:hidden;
+}
